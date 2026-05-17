@@ -1,3 +1,7 @@
+export default defineConfig({
+  base: '/Operation-2/', // 必須與您的 GitHub 儲存庫名稱一致
+  // 其他原本的設定...
+})
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
